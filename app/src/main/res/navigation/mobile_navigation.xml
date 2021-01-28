@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.udea.petcare.Fragments.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_adoption"
+        android:name="com.udea.petcare.Fragments.AdoptionFragment"
+        android:label="@string/menu_adoption"
+        tools:layout="@layout/fragment_adoption" />
+
+    <fragment
+        android:id="@+id/nav_losing"
+        android:name="com.udea.petcare.Fragments.LosingFragment"
+        android:label="@string/menu_perdidas"
+        tools:layout="@layout/fragment_losing" />
+    <fragment
+        android:id="@+id/nav_veterinary"
+        android:name="com.udea.petcare.Fragments.VeterinaryFragment"
+        android:label="@string/menu_veterinarias"
+        tools:layout="@layout/fragment_veterinary" />
+    <fragment
+        android:id="@+id/nav_guarderias"
+        android:name="com.udea.petcare.Fragments.DayCareFragment"
+        android:label="@string/menu_guarderias"
+        tools:layout="@layout/fragment_day_care" />
+</navigation>

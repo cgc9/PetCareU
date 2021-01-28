@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_adoption"
+            android:icon="@drawable/ic_pets"
+            android:title="@string/menu_adoption" />
+        <item
+            android:id="@+id/nav_losing"
+            android:icon="@drawable/ic_alert"
+            android:title="@string/menu_perdidas" />
+        <item
+            android:id="@+id/nav_veterinary"
+            android:icon="@drawable/ic_hospital"
+            android:title="@string/menu_veterinarias" />
+        <item
+            android:id="@+id/nav_guarderias"
+            android:icon="@drawable/ic_houses"
+            android:title="@string/menu_guarderias" />
+
+    </group>
+</menu>

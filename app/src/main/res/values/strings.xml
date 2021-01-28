@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">PetCare</string>
+    <string name="title_activity_nav_drawer">NavDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_adoption">Adopción</string>
+    <string name="menu_perdidas">Perdidas</string>
+    <string name="menu_veterinarias">Servicios Veterinarios</string>
+    <string name="menu_paseadores">Paseadores</string>
+    <string name="menu_guarderias">Guarderias</string>
+    <string name="menu_config">Configuración</string>
+    <string name="menu_cerrarSesion">Cerrar Sesión</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="user">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="ingresar">Ingresar</string>j
+    <string name="ingresarGoogle">Ingresar con Google</string>
+    <string name="registarse">Registrarse</string>
+    <string name="actIngreso">Iniciar sesión</string>
+    <string name="name">Nombre</string>
+    <string name="username">Usuario</string>
+    <string name="lastName">Apellido</string>
+    <string name="email">Correo electronico</string>
+    <string name="tel">Telefono</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="description">Descripción</string>
+    <string name="selectOption">Seleccione el tipo </string>
+    <string name="publicationTitle">Título</string>
+    <string name="publicationDescription">Descripción</string>
+    <string name="publicationCity">Ciudad</string>
+    <string name="publicationType">Tipo de publicación</string>
+    <string name="adoptionType">Adopción</string>
+    <string name="losingType">Perdida</string>
+    <string name="publicationImage">Imagen</string>
+</resources>
